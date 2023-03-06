@@ -36,7 +36,7 @@ plugins {
     // Gradle Qodana Plugin
     // id("org.jetbrains.qodana") version "0.1.13"
     // ktlint linter - read more: https://github.com/JLLeitschuh/ktlint-gradle
-    id("org.jlleitschuh.gradle.ktlint") version "10.3.0"
+    id("org.jlleitschuh.gradle.ktlint") version "11.3.1"
 }
 
 val artifactTypeAttribute = Attribute.of("artifactType", String::class.java)
